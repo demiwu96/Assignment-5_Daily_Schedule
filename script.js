@@ -3,7 +3,7 @@ var time;
 var date;
 var day;
 
-// update time
+// update time, day, date
 function update() {
     var dt = new Date();
     var day = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
@@ -22,7 +22,6 @@ function update() {
 // change color with time
 function checkTime() {
     var dt = new Date();
-    // var changeColor = setInterval(function () {
     var currentTimeId = dt.getHours(); // 0 - 23 
     var currentTimeString = currentTimeId.toString(); // string "0" - "23"
     var rows = document.getElementsByClassName("row");
@@ -108,7 +107,7 @@ $(document).ready(function () {
                 array_value.push(input);
                 object[timeId] = array_value;
             }
-            // If no local storage
+            // If no local storage exists
         } else {
             object = {};
             array_value = [];
