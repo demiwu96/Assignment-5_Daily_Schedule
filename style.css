@@ -1,0 +1,57 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: rebeccapurple;
+  border-radius: 0;
+  border-bottom: 10px solid rebeccapurple;
+}
+
+h1{
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.jumbotron h4{
+  font-family: 'Fredericka the Great', cursive;
+  margin-bottom: 30px;
+}
+
+.jumbotron p{
+  font-size: 28px;
+  font-family: 'Pattaya', sans-serif;
+}
+
+.display{
+  overflow-wrap: break-word;
+}
+
+.item{
+  margin-bottom: 5px;
+}
+
+button{
+  height: 50px;
+  text-align: center;
+  float: right;
+}
+
+.time{
+  padding-top: 15px;
+  font-family: 'Pattaya', sans-serif;
+}
+
+.break{
+  border-top: rgb(217, 180, 248) solid 5px;
+}
+
+.purple{
+  background-color: rebeccapurple;
+  border: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
