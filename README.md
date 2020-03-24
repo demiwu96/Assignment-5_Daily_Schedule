@@ -8,6 +8,7 @@ A daily schedule with date and time. Current time block is shown in green, past 
 
 ## Built with
 * HTML
+* Bootstrap
 * CSS
 * javaScript/jQuery
 
@@ -15,4 +16,4 @@ A daily schedule with date and time. Current time block is shown in green, past 
 Yu-Hsuan Wu
 
 ## Take a look
-[Click here](https://demiwu96.github.io/Assignment-5_Daily_Schedule/) to look at my project
+[Click here](https://demiwu96.github.io/Daily_Schedule/) to look at my project
