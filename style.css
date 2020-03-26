@@ -14,6 +14,7 @@ body {
 
 h1{
   font-family: 'Fredericka the Great', cursive;
+  font-size: 80px;
 }
 
 .jumbotron h4{
@@ -54,4 +55,23 @@ button{
   border: none;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+
+@media (max-width: 576px) {
+  .jumbotron {
+    padding-bottom: 20px;
+  }
+
+  h1{
+    font-size: 23px;
+  }
+
+  .jumbotron h4{
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+
+  .jumbotron p{
+    font-size: 18px;
+  }
 }
